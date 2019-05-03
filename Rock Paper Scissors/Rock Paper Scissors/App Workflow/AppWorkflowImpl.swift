@@ -12,13 +12,14 @@ final class AppWorkflowImpl: AppWorkflow {
     
     private let window: UIWindow
     
+    private lazy var gameWorkflow: GamePresentation = GameFactory.makeGameWorkflow()
+    
     init(window: UIWindow) {
         self.window = window
     }
     
     func start() {
-        let viewController = UIViewController()
-        viewController.view.backgroundColor = .magenta
+        let viewController = gameWorkflow.prepareGameView()
         window.rootViewController = viewController
     }
 }

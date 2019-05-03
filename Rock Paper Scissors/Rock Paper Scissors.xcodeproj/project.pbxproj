@@ -14,6 +14,18 @@
 		4A138E76227CAF3D00AA2618 /* AppWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */; };
 		4A138E78227CAF5100AA2618 /* AppWorkflowImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */; };
 		4A138E7A227CAF9A00AA2618 /* AppWorkflowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E79227CAF9A00AA2618 /* AppWorkflowFactory.swift */; };
+		4A138E83227CB16F00AA2618 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E82227CB16F00AA2618 /* GameViewController.swift */; };
+		4A138E85227CB18A00AA2618 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E84227CB18A00AA2618 /* GamePresenter.swift */; };
+		4A138E88227CB1C300AA2618 /* GamePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E87227CB1C300AA2618 /* GamePresenterImpl.swift */; };
+		4A138E8A227CB1EA00AA2618 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A138E89227CB1EA00AA2618 /* Game.storyboard */; };
+		4A138E8C227CB20600AA2618 /* GameViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E8B227CB20600AA2618 /* GameViewFactory.swift */; };
+		4A138E8F227CB2A500AA2618 /* GamePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E8E227CB2A500AA2618 /* GamePresentation.swift */; };
+		4A138E93227CB31000AA2618 /* GameFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E92227CB31000AA2618 /* GameFactory.swift */; };
+		4A138E95227CB33200AA2618 /* GameWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E94227CB33200AA2618 /* GameWorkflow.swift */; };
+		4A138E97227CB34B00AA2618 /* GameWorkflowImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E96227CB34B00AA2618 /* GameWorkflowImpl.swift */; };
+		4A138E99227CB38400AA2618 /* GameWorkflowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E98227CB38400AA2618 /* GameWorkflowFactory.swift */; };
+		4A138E9B227CB7AF00AA2618 /* GameViewControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E9A227CB7AF00AA2618 /* GameViewControls.swift */; };
+		4A138E9D227CB7FC00AA2618 /* GamePresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E9C227CB7FC00AA2618 /* GamePresenterFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,18 @@
 		4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflow.swift; sourceTree = "<group>"; };
 		4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflowImpl.swift; sourceTree = "<group>"; };
 		4A138E79227CAF9A00AA2618 /* AppWorkflowFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflowFactory.swift; sourceTree = "<group>"; };
+		4A138E82227CB16F00AA2618 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4A138E84227CB18A00AA2618 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		4A138E87227CB1C300AA2618 /* GamePresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenterImpl.swift; sourceTree = "<group>"; };
+		4A138E89227CB1EA00AA2618 /* Game.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		4A138E8B227CB20600AA2618 /* GameViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewFactory.swift; sourceTree = "<group>"; };
+		4A138E8E227CB2A500AA2618 /* GamePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresentation.swift; sourceTree = "<group>"; };
+		4A138E92227CB31000AA2618 /* GameFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFactory.swift; sourceTree = "<group>"; };
+		4A138E94227CB33200AA2618 /* GameWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWorkflow.swift; sourceTree = "<group>"; };
+		4A138E96227CB34B00AA2618 /* GameWorkflowImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWorkflowImpl.swift; sourceTree = "<group>"; };
+		4A138E98227CB38400AA2618 /* GameWorkflowFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWorkflowFactory.swift; sourceTree = "<group>"; };
+		4A138E9A227CB7AF00AA2618 /* GameViewControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControls.swift; sourceTree = "<group>"; };
+		4A138E9C227CB7FC00AA2618 /* GamePresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenterFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,7 @@
 			children = (
 				4A138E7B227CAFC000AA2618 /* App Workflow */,
 				4A138E55227CAEDB00AA2618 /* AppDelegate.swift */,
+				4A138E7F227CB14800AA2618 /* Components */,
 				4A138E61227CAEE600AA2618 /* Info.plist */,
 				4A138E7E227CB09000AA2618 /* Resources */,
 			);
@@ -113,6 +138,73 @@
 				4A138E5E227CAEE600AA2618 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A138E7F227CB14800AA2618 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E80227CB15200AA2618 /* Game */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A138E80227CB15200AA2618 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E90227CB2C200AA2618 /* Interface */,
+				4A138E8D227CB29A00AA2618 /* Workflow */,
+				4A138E86227CB18D00AA2618 /* Presenter */,
+				4A138E81227CB16400AA2618 /* View */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4A138E81227CB16400AA2618 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E89227CB1EA00AA2618 /* Game.storyboard */,
+				4A138E82227CB16F00AA2618 /* GameViewController.swift */,
+				4A138E9A227CB7AF00AA2618 /* GameViewControls.swift */,
+				4A138E8B227CB20600AA2618 /* GameViewFactory.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A138E86227CB18D00AA2618 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E84227CB18A00AA2618 /* GamePresenter.swift */,
+				4A138E9C227CB7FC00AA2618 /* GamePresenterFactory.swift */,
+				4A138E87227CB1C300AA2618 /* GamePresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4A138E8D227CB29A00AA2618 /* Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E94227CB33200AA2618 /* GameWorkflow.swift */,
+				4A138E98227CB38400AA2618 /* GameWorkflowFactory.swift */,
+				4A138E96227CB34B00AA2618 /* GameWorkflowImpl.swift */,
+			);
+			path = Workflow;
+			sourceTree = "<group>";
+		};
+		4A138E90227CB2C200AA2618 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E91227CB2E800AA2618 /* Provided */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		4A138E91227CB2E800AA2618 /* Provided */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E8E227CB2A500AA2618 /* GamePresentation.swift */,
+				4A138E92227CB31000AA2618 /* GameFactory.swift */,
+			);
+			path = Provided;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A138E8A227CB1EA00AA2618 /* Game.storyboard in Resources */,
 				4A138E60227CAEE600AA2618 /* LaunchScreen.storyboard in Resources */,
 				4A138E5D227CAEE600AA2618 /* Assets.xcassets in Resources */,
 			);
@@ -215,8 +308,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A138E9B227CB7AF00AA2618 /* GameViewControls.swift in Sources */,
+				4A138E97227CB34B00AA2618 /* GameWorkflowImpl.swift in Sources */,
+				4A138E93227CB31000AA2618 /* GameFactory.swift in Sources */,
+				4A138E83227CB16F00AA2618 /* GameViewController.swift in Sources */,
+				4A138E99227CB38400AA2618 /* GameWorkflowFactory.swift in Sources */,
 				4A138E76227CAF3D00AA2618 /* AppWorkflow.swift in Sources */,
+				4A138E85227CB18A00AA2618 /* GamePresenter.swift in Sources */,
+				4A138E95227CB33200AA2618 /* GameWorkflow.swift in Sources */,
+				4A138E9D227CB7FC00AA2618 /* GamePresenterFactory.swift in Sources */,
+				4A138E8F227CB2A500AA2618 /* GamePresentation.swift in Sources */,
 				4A138E7A227CAF9A00AA2618 /* AppWorkflowFactory.swift in Sources */,
+				4A138E88227CB1C300AA2618 /* GamePresenterImpl.swift in Sources */,
+				4A138E8C227CB20600AA2618 /* GameViewFactory.swift in Sources */,
 				4A138E78227CAF5100AA2618 /* AppWorkflowImpl.swift in Sources */,
 				4A138E56227CAEDB00AA2618 /* AppDelegate.swift in Sources */,
 			);
