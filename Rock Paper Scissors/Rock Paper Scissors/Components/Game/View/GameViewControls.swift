@@ -10,4 +10,5 @@ import Foundation
 
 protocol GameViewControls: AnyObject {
     
+    func showScore(forUser userScore: String, forCPU cpuScore: String)
 }

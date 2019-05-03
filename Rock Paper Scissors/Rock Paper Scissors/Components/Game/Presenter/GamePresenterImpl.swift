@@ -17,6 +17,10 @@ final class GamePresenterImpl: GamePresenter {
     }
     
     func prepareView() {
+        view?.showScore(forUser: "0", forCPU: "0")
+    }
+    
+    func playAttack(_ attack: Attack) {
         
     }
 }

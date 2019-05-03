@@ -1,5 +1,5 @@
 //
-//  GamePresenter.swift
+//  Attack.swift
 //  Rock Paper Scissors
 //
 //  Created by Dennis Hirschgänger on 03.05.19.
@@ -8,9 +8,6 @@
 
 import Foundation
 
-protocol GamePresenter {
-    
-    func prepareView()
-    
-    func playAttack(_ attack: Attack)
+enum Attack {
+    case rock, paper, scissors
 }
