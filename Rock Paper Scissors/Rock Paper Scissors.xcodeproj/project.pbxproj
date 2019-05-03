@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4A138E56227CAEDB00AA2618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E55227CAEDB00AA2618 /* AppDelegate.swift */; };
-		4A138E58227CAEDB00AA2618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E57227CAEDB00AA2618 /* ViewController.swift */; };
-		4A138E5B227CAEDB00AA2618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A138E59227CAEDB00AA2618 /* Main.storyboard */; };
 		4A138E5D227CAEE600AA2618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A138E5C227CAEE600AA2618 /* Assets.xcassets */; };
 		4A138E60227CAEE600AA2618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A138E5E227CAEE600AA2618 /* LaunchScreen.storyboard */; };
 		4A138E6B227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E6A227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift */; };
+		4A138E76227CAF3D00AA2618 /* AppWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */; };
+		4A138E78227CAF5100AA2618 /* AppWorkflowImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */; };
+		4A138E7A227CAF9A00AA2618 /* AppWorkflowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E79227CAF9A00AA2618 /* AppWorkflowFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +29,15 @@
 /* Begin PBXFileReference section */
 		4A138E52227CAEDB00AA2618 /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A138E55227CAEDB00AA2618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A138E57227CAEDB00AA2618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A138E5A227CAEDB00AA2618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A138E5C227CAEE600AA2618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A138E5F227CAEE600AA2618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A138E61227CAEE600AA2618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A138E66227CAEE600AA2618 /* Rock Paper ScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A138E6A227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsTests.swift; sourceTree = "<group>"; };
 		4A138E6C227CAEE600AA2618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflow.swift; sourceTree = "<group>"; };
+		4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflowImpl.swift; sourceTree = "<group>"; };
+		4A138E79227CAF9A00AA2618 /* AppWorkflowFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflowFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,10 @@
 		4A138E54227CAEDB00AA2618 /* Rock Paper Scissors */ = {
 			isa = PBXGroup;
 			children = (
+				4A138E7B227CAFC000AA2618 /* App Workflow */,
 				4A138E55227CAEDB00AA2618 /* AppDelegate.swift */,
-				4A138E57227CAEDB00AA2618 /* ViewController.swift */,
-				4A138E59227CAEDB00AA2618 /* Main.storyboard */,
-				4A138E5C227CAEE600AA2618 /* Assets.xcassets */,
-				4A138E5E227CAEE600AA2618 /* LaunchScreen.storyboard */,
 				4A138E61227CAEE600AA2618 /* Info.plist */,
+				4A138E7E227CB09000AA2618 /* Resources */,
 			);
 			path = "Rock Paper Scissors";
 			sourceTree = "<group>";
@@ -94,6 +94,25 @@
 				4A138E6C227CAEE600AA2618 /* Info.plist */,
 			);
 			path = "Rock Paper ScissorsTests";
+			sourceTree = "<group>";
+		};
+		4A138E7B227CAFC000AA2618 /* App Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */,
+				4A138E79227CAF9A00AA2618 /* AppWorkflowFactory.swift */,
+				4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */,
+			);
+			path = "App Workflow";
+			sourceTree = "<group>";
+		};
+		4A138E7E227CB09000AA2618 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A138E5C227CAEE600AA2618 /* Assets.xcassets */,
+				4A138E5E227CAEE600AA2618 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +198,6 @@
 			files = (
 				4A138E60227CAEE600AA2618 /* LaunchScreen.storyboard in Resources */,
 				4A138E5D227CAEE600AA2618 /* Assets.xcassets in Resources */,
-				4A138E5B227CAEDB00AA2618 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A138E58227CAEDB00AA2618 /* ViewController.swift in Sources */,
+				4A138E76227CAF3D00AA2618 /* AppWorkflow.swift in Sources */,
+				4A138E7A227CAF9A00AA2618 /* AppWorkflowFactory.swift in Sources */,
+				4A138E78227CAF5100AA2618 /* AppWorkflowImpl.swift in Sources */,
 				4A138E56227CAEDB00AA2618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +241,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A138E59227CAEDB00AA2618 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A138E5A227CAEDB00AA2618 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A138E5E227CAEE600AA2618 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
