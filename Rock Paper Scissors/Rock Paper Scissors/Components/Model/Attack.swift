@@ -8,6 +8,24 @@
 
 import Foundation
 
-enum Attack {
-    case rock, paper, scissors
+enum Attack: String, CaseIterable {
+    case rock = "Stein"
+    case paper = "Papier"
+    case scissors = "Schere"
+}
+
+extension Attack: Comparable {
+    
+    static func < (lhs: Attack, rhs: Attack) -> Bool {
+        switch (lhs, rhs) {
+        case (.rock, .paper):
+            return true
+        case (.scissors, .rock):
+            return true
+        case (.paper, .scissors):
+            return true
+        default:
+            return false
+        }
+    }
 }

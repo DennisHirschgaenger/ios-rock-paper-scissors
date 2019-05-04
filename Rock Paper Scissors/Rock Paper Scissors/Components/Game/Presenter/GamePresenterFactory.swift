@@ -11,7 +11,8 @@ import Foundation
 final class GamePresenterFactory {
     
     static func makePresenter(view: GameViewControls) -> GamePresenter {
-        let presenter = GamePresenterImpl(view: view)
+        let opponent = OpponentFactory.makeRandomPickerOpponent()
+        let presenter = GamePresenterImpl(view: view, opponent: opponent)
         return presenter
     }
 }

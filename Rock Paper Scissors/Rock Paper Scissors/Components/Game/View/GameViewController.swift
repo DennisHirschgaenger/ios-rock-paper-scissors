@@ -39,4 +39,9 @@ extension GameViewController: GameViewControls {
         userScoreLabel.text = userScore
         cpuScoreLabel.text = cpuScore
     }
+    
+    func showResultDialog(title: String, message: String) {
+        let dialog = GameViewFactory.makeResultDialog(title: title, message: message)
+        present(dialog, animated: true)
+    }
 }

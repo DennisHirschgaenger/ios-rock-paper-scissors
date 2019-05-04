@@ -16,7 +16,6 @@ private enum Constants {
 final class GameViewFactory {
     
     static func makeGameView() -> UIViewController {
-        
         let storyboard = UIStoryboard(name: Constants.storyboardName, bundle: nil)
         guard let viewController = storyboard.instantiateInitialViewController() as? GameViewController else {
             fatalError("Failed to instantiate game view controller!")
@@ -25,5 +24,13 @@ final class GameViewFactory {
         viewController.presenter = GamePresenterFactory.makePresenter(view: viewController)
         
         return viewController
+    }
+    
+    static func makeResultDialog(title: String, message: String) -> UIViewController {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default)
+        alert.addAction(okAction)
+        
+        return alert
     }
 }
