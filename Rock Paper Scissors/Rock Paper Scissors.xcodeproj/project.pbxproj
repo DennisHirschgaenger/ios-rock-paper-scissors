@@ -10,7 +10,6 @@
 		4A138E56227CAEDB00AA2618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E55227CAEDB00AA2618 /* AppDelegate.swift */; };
 		4A138E5D227CAEE600AA2618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A138E5C227CAEE600AA2618 /* Assets.xcassets */; };
 		4A138E60227CAEE600AA2618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A138E5E227CAEE600AA2618 /* LaunchScreen.storyboard */; };
-		4A138E6B227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E6A227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift */; };
 		4A138E76227CAF3D00AA2618 /* AppWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */; };
 		4A138E78227CAF5100AA2618 /* AppWorkflowImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */; };
 		4A138E7A227CAF9A00AA2618 /* AppWorkflowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138E79227CAF9A00AA2618 /* AppWorkflowFactory.swift */; };
@@ -31,6 +30,9 @@
 		4A138EA4227CC00A00AA2618 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138EA3227CC00A00AA2618 /* Player.swift */; };
 		4A138EA6227CC03500AA2618 /* RandomPickerOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138EA5227CC03500AA2618 /* RandomPickerOpponent.swift */; };
 		4A138EA9227E013900AA2618 /* OpponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138EA8227E013900AA2618 /* OpponentFactory.swift */; };
+		4A138EAB227E0C5500AA2618 /* GamePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138EAA227E0C5500AA2618 /* GamePresenterTest.swift */; };
+		4A138EAD227E107F00AA2618 /* AttackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138EAC227E107F00AA2618 /* AttackTest.swift */; };
+		4A138EAF227E112200AA2618 /* RandomPickerOpponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A138EAE227E112200AA2618 /* RandomPickerOpponentTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,6 @@
 		4A138E5F227CAEE600AA2618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A138E61227CAEE600AA2618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A138E66227CAEE600AA2618 /* Rock Paper ScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A138E6A227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsTests.swift; sourceTree = "<group>"; };
 		4A138E6C227CAEE600AA2618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A138E75227CAF3D00AA2618 /* AppWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflow.swift; sourceTree = "<group>"; };
 		4A138E77227CAF5100AA2618 /* AppWorkflowImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWorkflowImpl.swift; sourceTree = "<group>"; };
@@ -72,6 +73,9 @@
 		4A138EA3227CC00A00AA2618 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		4A138EA5227CC03500AA2618 /* RandomPickerOpponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPickerOpponent.swift; sourceTree = "<group>"; };
 		4A138EA8227E013900AA2618 /* OpponentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpponentFactory.swift; sourceTree = "<group>"; };
+		4A138EAA227E0C5500AA2618 /* GamePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenterTest.swift; sourceTree = "<group>"; };
+		4A138EAC227E107F00AA2618 /* AttackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackTest.swift; sourceTree = "<group>"; };
+		4A138EAE227E112200AA2618 /* RandomPickerOpponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPickerOpponentTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +129,10 @@
 		4A138E69227CAEE600AA2618 /* Rock Paper ScissorsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4A138E6A227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift */,
+				4A138EAC227E107F00AA2618 /* AttackTest.swift */,
+				4A138EAA227E0C5500AA2618 /* GamePresenterTest.swift */,
 				4A138E6C227CAEE600AA2618 /* Info.plist */,
+				4A138EAE227E112200AA2618 /* RandomPickerOpponentTest.swift */,
 			);
 			path = "Rock Paper ScissorsTests";
 			sourceTree = "<group>";
@@ -366,7 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A138E6B227CAEE600AA2618 /* Rock_Paper_ScissorsTests.swift in Sources */,
+				4A138EAD227E107F00AA2618 /* AttackTest.swift in Sources */,
+				4A138EAB227E0C5500AA2618 /* GamePresenterTest.swift in Sources */,
+				4A138EAF227E112200AA2618 /* RandomPickerOpponentTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
