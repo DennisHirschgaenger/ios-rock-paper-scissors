@@ -10,6 +10,9 @@ import Foundation
 
 final class GameFactory {
     
+    /// Creates a new instance of the workflow of the game component
+    ///
+    /// - Returns: The new instance
     static func makeGameWorkflow() -> GamePresentation {
         let workflow = GameWorkflowFactory.makeWorkflow()
         return workflow

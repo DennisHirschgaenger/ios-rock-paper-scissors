@@ -10,5 +10,9 @@ import Foundation
 
 protocol Opponent {
     
+    /// Requests an attack from the opponent
+    /// - Note: Could also be implemented asynchronously to support playing against real opponent via bluetooth
+    ///
+    /// - Returns: The opponent's attack
     func expectAttack() -> Attack
 }

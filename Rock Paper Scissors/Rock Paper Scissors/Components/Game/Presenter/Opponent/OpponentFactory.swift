@@ -10,6 +10,9 @@ import Foundation
 
 final class OpponentFactory {
     
+    /// Creates a new instance of the random picker opponent
+    ///
+    /// - Returns: The new instance
     static func makeRandomPickerOpponent() -> Opponent {
         let opponent = RandomPickerOpponent()
         return opponent

@@ -10,10 +10,16 @@ import Foundation
 
 final class GamePresenterImpl: GamePresenter {
     
+    /// Handles view output events
     private weak var view: GameViewControls?
+    
+    /// The opponent to play against
     private let opponent: Opponent
     
+    /// The user's current score
     private var userScore = 0
+    
+    /// The CPU's current score
     private var cpuScore = 0
     
     init(view: GameViewControls, opponent: Opponent) {

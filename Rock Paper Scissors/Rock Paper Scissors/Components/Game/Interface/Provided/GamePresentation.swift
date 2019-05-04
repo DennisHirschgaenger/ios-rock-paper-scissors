@@ -10,5 +10,8 @@ import UIKit
 
 protocol GamePresentation {
     
+    /// Returns the game view
+    ///
+    /// - Returns: The game view
     func prepareGameView() -> UIViewController
 }

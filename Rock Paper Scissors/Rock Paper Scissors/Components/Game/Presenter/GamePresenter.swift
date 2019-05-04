@@ -10,7 +10,11 @@ import Foundation
 
 protocol GamePresenter {
     
+    /// Prepares the view for display
     func prepareView()
     
+    /// Plays the given attack
+    ///
+    /// - Parameter attack: The attack to play
     func playAttack(_ attack: Attack)
 }

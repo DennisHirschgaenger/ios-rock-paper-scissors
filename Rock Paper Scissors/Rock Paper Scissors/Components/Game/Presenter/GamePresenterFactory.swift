@@ -10,6 +10,10 @@ import Foundation
 
 final class GamePresenterFactory {
     
+    /// Creates a new instance of the game presenter
+    ///
+    /// - Parameter view: The game view
+    /// - Returns: The new instance
     static func makePresenter(view: GameViewControls) -> GamePresenter {
         let opponent = OpponentFactory.makeRandomPickerOpponent()
         let presenter = GamePresenterImpl(view: view, opponent: opponent)

@@ -10,6 +10,7 @@ import UIKit
 
 final class GameViewController: UIViewController {
     
+    /// Handles events produced by the view
     var presenter: GamePresenter?
     
     @IBOutlet private weak var userScoreLabel: UILabel!

@@ -10,8 +10,10 @@ import UIKit
 
 final class AppWorkflowImpl: AppWorkflow {
     
+    /// The main window
     private let window: UIWindow
     
+    /// The game workflow
     private lazy var gameWorkflow: GamePresentation = GameFactory.makeGameWorkflow()
     
     init(window: UIWindow) {

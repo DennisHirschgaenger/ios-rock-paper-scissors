@@ -10,5 +10,6 @@ import Foundation
 
 protocol AppWorkflow {
     
+    /// Starts the app
     func start()
 }

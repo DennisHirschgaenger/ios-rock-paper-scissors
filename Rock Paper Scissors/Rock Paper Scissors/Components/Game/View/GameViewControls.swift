@@ -10,7 +10,17 @@ import Foundation
 
 protocol GameViewControls: AnyObject {
     
+    /// Shows the given score
+    ///
+    /// - Parameters:
+    ///   - userScore: The user's score
+    ///   - cpuScore: The CPU's score
     func showScore(forUser userScore: String, forCPU cpuScore: String)
     
+    /// Shows the result dialog with the given parameters
+    ///
+    /// - Parameters:
+    ///   - title: The title of the dialog
+    ///   - message: The message of the dialog
     func showResultDialog(title: String, message: String)
 }
